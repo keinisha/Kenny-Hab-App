@@ -3,7 +3,7 @@ import streamlit as st
 import pickle
 import math
 
-with open(r'C:\Users\gj979\PycharmProjects\Toxic-Comment-Classification\xgboost.pkl', 'rb') as f:
+with open('xgboost.pkl', 'rb') as f:
     xgboost1 = pickle.load(f)
 
 
